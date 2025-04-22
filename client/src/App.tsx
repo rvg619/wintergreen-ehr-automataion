@@ -17,7 +17,7 @@ import NavigationPage from "@/pages/navigation";
 
 // Import Amplify and configuration
 import { Amplify, Auth } from 'aws-amplify';
-import awsconfig from '../../shared/aws-exports';
+import awsconfig from '../../src/aws-exports';
 
 // Configure Amplify with your AWS resources
 Amplify.configure(awsconfig);

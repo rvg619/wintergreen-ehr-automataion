@@ -1,10 +1,8 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "wintergreenehrautomac81a8a37_identitypool_c81a8a37",
-    "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "winterc81a8a37",
-    "userPoolName": "wintergreenehrautomac81a8a37_userpool_c81a8a37",
+    "resourceNameTruncated": "wintercf6e3d0e",
+    "userPoolName": "wintergreenehrautomacf6e3d0e_userpool_cf6e3d0e",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,16 +29,19 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "winterc81a8a37_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "wintercf6e3d0e_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "c81a8a37",
-    "resourceName": "wintergreenehrautomac81a8a37",
-    "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
+    "sharedId": "cf6e3d0e",
+    "resourceName": "wintergreenehrautomacf6e3d0ecf6e3d0e",
+    "authSelections": "userPoolOnly",
+    "useDefault": "manual",
     "usernameAttributes": [
       "email"
     ],
+    "userPoolGroups": false,
+    "adminQueries": false,
     "triggers": {},
+    "hostedUI": false,
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
